@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./styles/style.css" rel="stylesheet">
+    <link href="./assets/imgs/torii-gate.png" rel="icon" type="icon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reggae+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yuji+Boku&display=swap" rel="stylesheet">
+    <title>LOGIN PAGE</title>
+</head>
+
+<body>
+    <div class="general_screen" data-general-screen>
+        <div class="left_screen"></div>
+
+        <div class="right_screen">
+            <div class="div_form">
+                <h1 class="form_title">Login into your account</h1>
+
+                <form class="form_login">
+                    <label for="email">Email</label>
+                    <input class="user_email input" type="email" name="email" id="email" placeholder="Your email here">
+                    <label for="user_password">Password</label>
+                    <input class="user_password input" type="password" name="password" id="password" placeholder="Your password here">
+                </form>
+
+                <button class="btn_login btn">Login</button>
+                <button class="link_register" data-link-register>Don't have an account? Sign up.</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="register_general_screen" data-register-screen>
+
+        <div class="left_register_screen">
+
+            <div class="register_form_div">
+
+                <h1 class="register_form_title">Sign up, warrior...</h1>
+                
+                <form class="form_register">
+                    <label for="user_register_name">Name</label>
+                    <input type="text" id="user_register_name" placeholder="Your name">
+
+                    <label for="user_register_email">Email</label>
+                    <input type="email" id="user_register_email" placeholder="Your email">
+
+                    <label for="user_register_password">Password</label>
+                    <input type="password" id="user_register_password" placeholder="Your password">
+                </form>
+
+                <button type="submit" class="btn_register">Sign Up</button>
+                <button class="link_login" data-link-login>Do you have an account? Sign In.</button>
+
+            </div>
+
+        </div>
+
+        <div class="right_register_screen"></div>
+
+    </div>
+
+    <script src="./scripts/script.js"></script>
+    
+</body>
+</html>

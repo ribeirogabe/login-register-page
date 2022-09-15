@@ -1,0 +1,326 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6deac;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* LOGIN SCREEN STYLE */
+
+/* style general screen */
+
+.general_screen{
+    display: flex;
+    background-color: #ffffff;
+    width: 80%;
+    height: 75%;
+    position: relative;
+    top: 12.5%;
+    bottom: 12.5%;
+    left: 10%;
+    right: 10%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* style left screen */
+
+.left_screen{
+    background-image: url(../assets/imgs/monte_fuji.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+
+/* style right screen */
+
+.right_screen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_form{
+    width: 70%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Yuji Boku', serif;
+}
+
+.form_title{
+    color: #950a1f;
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+    padding-bottom: 20px;
+}
+
+.input{
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+#email::-webkit-input-placeholder{
+    color:  rgb(118, 118, 118);
+}
+
+#password::-webkit-input-placeholder{
+    color:  rgb(118, 118, 118);
+}
+
+.user_email{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.user_password{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn{
+    color: white;
+    background-color: #950a1f;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Reggae One', cursive;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: #950a1f;
+    background-color: #ffffff;
+    border: 1px solid #950a1f;
+    transition: 400ms;
+}
+
+.link_register{
+    background: none;
+    border: none;
+    margin-top: 20px;
+    color: #950a1f;
+    cursor: pointer;
+    font-family: 'Reggae One', cursive;
+}
+
+
+
+.link_register:hover{
+    color: #1e1e1e;
+    transition: 300ms;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+/* ============================================ */
+
+/* REGISTER SCREEN STYLE */
+
+
+.register_general_screen{
+    display: none;
+    background-color: #ffffff;
+    width: 80%;
+    height: 75%;
+    position: absolute;
+    top: 12.5%;
+    bottom: 12.5%;
+    left: 10%;
+    right: 10%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* right register screen style */
+
+.right_register_screen{
+    background-image: url(../assets/imgs/samurai_sakura.jpg);
+    background-size: cover;
+    background-position: right;
+    background-repeat: no-repeat;
+    width: 60%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+
+/* left register screen style */
+
+.left_register_screen{
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.register_form_div{
+    position: relative;
+    top: -30px;
+    width: 70%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    font-family: 'Yuji Boku', serif;
+}
+
+.register_form_title{
+    color: #950a1f;
+    text-align: center;
+    font-family: 'Reggae One', cursive;
+    padding-bottom: 10px;
+}
+
+.form_register input{
+    text-align: center;
+    border: none;
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: #1e1e1e;
+    color: white;
+}
+
+.btn_register{
+    color: white;
+    background-color: #950a1f;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-family: 'Reggae One', cursive;
+    cursor: pointer;
+}
+
+.btn_register:hover{
+    color: #950a1f;
+    background-color: #ffffff;
+    border: 1px solid #950a1f;
+    transition: 400ms;
+}
+
+.link_login{
+    background: none;
+    border: none;
+    margin-top: 20px;
+    color: #950a1f;
+    cursor: pointer;
+    font-family: 'Reggae One', cursive;
+}
+
+.link_login:hover{
+    color: #1e1e1e;
+    transition: 200ms;
+    border-bottom: 1px solid #1e1e1e;
+}
+
+
+
+/* change screen class */
+
+.change_screen{
+    display: flex;
+}
+
+
+/* ========================== */
+
+/* responsive */
+
+@media only screen and (max-width:1200px){
+
+    .right_register_screen{
+        background-image: url(../assets/imgs/red-sun.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    
+}
+
+
+@media only screen and (max-width:950px){
+    .left_screen{
+        background-image: url(../assets/imgs/red-sun.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width:600px){
+
+
+    
+    .left_screen{
+        display: none;
+    }
+    
+    .general_screen{
+        background-color: #ffffff;
+        display: flex;
+        align-items: center;
+        width: 90%;
+        height: 90%;
+        position: relative;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        border-radius: 0px;
+    }
+
+       /* register screen */
+
+    .right_register_screen{
+        display: none;
+    }
+
+    .register_general_screen{
+        align-items: center;
+        width: 90%;
+        height: 90%;
+        position: absolute;
+        top: 5%;
+        left: 5%;
+        right: 5%;
+        border-radius: 0px;
+    }
+
+    .register_form_div{
+        position: relative;
+        top: 10%;
+    }
+
+
+}
+
+@media (min-width:540px) and (max-width:540px){
+
+    .register_form_div{
+        position: relative;
+        top: 10%;
+        right: 10%;
+        left: 10%;
+    }
+
+
+}
