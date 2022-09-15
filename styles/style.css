@@ -157,7 +157,7 @@ body{
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-    width: 60%;
+    width: 65%;
     height: 100%;
     border-radius: 0px 20px 20px 0px;
 }
@@ -288,6 +288,11 @@ body{
         border-radius: 0px;
     }
 
+    .div_form{
+        position: relative;
+        top: 10%;
+    }
+
        /* register screen */
 
     .right_register_screen{
@@ -295,6 +300,7 @@ body{
     }
 
     .register_general_screen{
+        background-color: #ffffff;
         align-items: center;
         width: 90%;
         height: 90%;
